@@ -100,6 +100,10 @@ h1, h2, h3, h4 {
     grid-column-end: 3;
 }
 
+h1.h1Welcome {
+    margin-top: 25px;
+}
+
 p {
     line-height: 30px;
 }
@@ -145,7 +149,7 @@ iframe {
     border-top: 2px dotted #1b1b1b;
 }
 
-.gallerySection p {
+.h2AndP {
     grid-column-start: 1;
     grid-column-end: 3;
     text-align: center;
@@ -153,6 +157,7 @@ iframe {
 
 .gallerySection h2 {
     margin-top: 25px;
+    margin-bottom: 0px;
 }
 
 .gallerySection a {
