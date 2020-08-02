@@ -151,18 +151,16 @@ iframe {
     text-align: center;
 }
 
-.gallerySection p.inGrid {
-    grid-column-start: 2;
-    margin: auto;
-}
-
 .gallerySection h2 {
     margin-top: 25px;
 }
 
+.gallerySection a {
+    margin: auto;
+}
+
 .gallerySection img {
     width: 80%;
-    margin: auto;
 }
 
 .imageWithCaption img {
@@ -178,10 +176,17 @@ iframe {
 
 @media screen and (min-width: 768px) {
     ul {
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: repeat(5, 1fr);
+        font-size: 10pt;
     }
 
     nav ul:before, nav ul:after {
-        grid-column-end: 7;
+        grid-column-end: 6;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    ul {
+        font-size: 20pt;
     }
 }
