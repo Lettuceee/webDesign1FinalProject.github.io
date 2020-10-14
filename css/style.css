@@ -127,7 +127,7 @@ main img {
     display: block;
 }
 
-.imageWithCaption{
+.imageContainer{
     border: 1px solid #ddd;
     border-radius: 4px;
     background-color: white;
@@ -168,14 +168,14 @@ iframe {
     width: 80%;
 }
 
-.imageWithCaption img {
+.imageContainer img {
     border: none;
     border-radius: 0px;
     padding: 0px;
     width: 100%;
 }
 
-.imageWithCaption p {
+.imageContainer p {
     margin: 0;
 }
 
